@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2022"],
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    /* These two options are crucial for the postbuild step */
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["ts/**/*.ts"]
+}
